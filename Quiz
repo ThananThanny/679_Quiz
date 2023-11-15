@@ -1,0 +1,5 @@
+https://transfer.sh/EhQ34fm70I/email.txt
+ข้อ 1 จากไฟล์  email.txt ให้เขียน command คำสั่งแสดงชื่อ เฉพาะส่วนตัวของนักศึกษา
+commands line 
+> cat email.txt //เพื่อโชว์ชื่อทั้งหมด
+> grep "@stu.pim.ac.th" email.txt | awk '{print $1}'  //grep เพื่อคัดกรองเฉพาะบรรทัดที่มี "@stu.pim.ac.th" จากนั้นใช้ awk เพื่อพิมพ์ชื่อที่อยู่ในคอลัมน์ที่ 1 (คอลัมน์แรก) 
