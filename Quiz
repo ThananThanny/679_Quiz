@@ -3,3 +3,52 @@ https://transfer.sh/EhQ34fm70I/email.txt
 commands line 
 > cat email.txt //เพื่อโชว์ชื่อทั้งหมด
 > grep "@stu.pim.ac.th" email.txt | awk '{print $1}'  //grep เพื่อคัดกรองเฉพาะบรรทัดที่มี "@stu.pim.ac.th" จากนั้นใช้ awk เพื่อพิมพ์ชื่อที่อยู่ในคอลัมน์ที่ 1 (คอลัมน์แรก) 
+
+RESULT 1
+thanny3306@Ubuntu:~/Exam$ grep "@stu.pim.ac.th" email.txt | awk '{print $1}'
+SUCHANYA
+THANICHA
+TAWAN
+YODSAPHON
+TANAKORN
+RAPEEPAN
+KITSADAPAN
+PHANUWAT
+SALEEBUT
+SUPARAT
+SUTATTA
+SARUTTAYA
+CAPTAN
+WIMOLSIRI
+SUVIJAK
+SANPICHAIKORN
+JEDSADAKORN
+RARANRON
+THANYAWATH
+SURACHET
+NATHIDA
+KANAPAT
+KANYAWEE
+PASATHON
+PARAMEE
+CHALITA
+PACHAREE
+KITTANA
+PHONGSAGON
+SUPAONG
+NICHAREE
+TANANCHANOK
+SIRAWIT
+THEERAPAT
+ANUPHONG
+ANUPONG
+AEKKAPON
+TANAKIT
+PHIYADA
+THANAPAT
+SIRIYADA
+NAWEE
+NATTAPAT
+KRITSANAPON
+
+
