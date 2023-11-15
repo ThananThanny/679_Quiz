@@ -1,0 +1,5 @@
+https://transfer.sh/EhQ34fm70I/email.txt 
+ข้อ 2  จากไฟล์ email.txt ให้เขียน command ที่ให้เป็นเฉพาะอีเมลของนักศึกษา
+commands line 
+> cat email.txt //เพื่อโชว์ชื่อทั้งหมด 
+> awk '{print $2}' email.txt  //ใช้ awk เพื่อพิมพ์คอลัมน์ที่ 2 (คอลัมน์ที่สอง) ซึ่งในที่นี้คือที่อยู่อีเมลของนักศึกษาทั้งหมดในไฟล์ email.txt
